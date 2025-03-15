@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "linked-list.js",
   "scripts": {
-    "ll": "nodemon linked-list.js"
+    "ll": "nodemon linked-list.js",
+    "dll": "nodemon doubly-linked-list.js"
   },
   "keywords": [],
   "author": "",

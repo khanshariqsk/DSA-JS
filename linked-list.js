@@ -96,7 +96,7 @@ class LinkedList {
     return temp;
   }
 
-  get(index) {
+  get(index = -1) {
     if (index < 0 || index >= this.#length) return undefined;
 
     let temp = this.#head;
@@ -162,6 +162,41 @@ class LinkedList {
 
     return this;
   }
+
+  toString() {
+    let temp = this.#head;
+    let result = "";
+
+    while (temp) {
+      result += temp.value + " -> ";
+      temp = temp.next;
+    }
+
+    return result + "null";
+  }
+
+  forEach(callback) {
+    let temp = this.#head;
+    let index = 0;
+
+    while (temp) {
+      callback(temp.value, index, this);
+      temp = temp.next;
+      index++;
+    }
+  }
+
+  toArray() {
+    const result = [];
+    let temp = this.#head;
+
+    while (temp) {
+      result.push(temp.value);
+      temp = temp.next;
+    }
+
+    return result;
+  }
 }
 
 const linkedList = new LinkedList(4);
@@ -170,3 +205,9 @@ linkedList.push(5).push(6).push(7).push(8);
 console.log("Head", linkedList.head);
 console.log("Tail", linkedList.tail);
 console.log("Length", linkedList.length);
+console.log("ToString", linkedList.toString());
+console.log("ToArray", linkedList.toArray());
+
+linkedList.forEach((value, index) => {
+  console.log(`Index ${index}: ${value}`);
+});
