@@ -4,7 +4,9 @@
   "main": "linked-list.js",
   "scripts": {
     "ll": "nodemon linked-list.js",
-    "dll": "nodemon doubly-linked-list.js"
+    "dll": "nodemon doubly-linked-list.js",
+    "stack": "nodemon stack.js",
+    "queue": "nodemon queue.js"
   },
   "keywords": [],
   "author": "",
