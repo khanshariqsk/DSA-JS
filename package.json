@@ -6,7 +6,8 @@
     "ll": "nodemon linked-list.js",
     "dll": "nodemon doubly-linked-list.js",
     "stack": "nodemon stack.js",
-    "queue": "nodemon queue.js"
+    "queue": "nodemon queue.js",
+    "bts": "nodemon binary-search-tree.js"
   },
   "keywords": [],
   "author": "",
