@@ -8,7 +8,8 @@
     "stack": "nodemon stack.js",
     "queue": "nodemon queue.js",
     "bts": "nodemon binary-search-tree.js",
-    "ht": "nodemon hash-table.js"
+    "ht": "nodemon hash-table.js",
+    "graph": "nodemon graph.js"
   },
   "keywords": [],
   "author": "",
