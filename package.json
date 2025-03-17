@@ -7,7 +7,8 @@
     "dll": "nodemon doubly-linked-list.js",
     "stack": "nodemon stack.js",
     "queue": "nodemon queue.js",
-    "bts": "nodemon binary-search-tree.js"
+    "bts": "nodemon binary-search-tree.js",
+    "ht": "nodemon hash-table.js"
   },
   "keywords": [],
   "author": "",
