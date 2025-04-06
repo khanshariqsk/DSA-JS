@@ -9,7 +9,11 @@
     "queue": "nodemon queue.js",
     "bts": "nodemon binary-search-tree.js",
     "ht": "nodemon hash-table.js",
-    "graph": "nodemon graph.js"
+    "graph": "nodemon graph.js",
+    "recursion": "nodemon recursion.js",
+    "basic-sorting": "nodemon basic-sorting.js",
+    "merge-sorting": "nodemon merge-sorting.js",
+    "quick-sorting": "nodemon quick-sorting.js"
   },
   "keywords": [],
   "author": "",
